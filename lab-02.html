@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG.</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(58, 57, 57);
+      }
+      li {
+        float: left;
+        padding: 12px;
+        color: white;
+      }
+      li:hover {
+        background-color: black;
+      }
+      table,
+      td,
+      th {
+        border: 2px solid silver;
+        border-collapse: collapse;
+        width: 40%;
+        margin-top: 3rem;
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+
+      th:nth-child(even),
+      td:nth-child(even) {
+        background-color: rgb(108, 104, 104);
+        color: aliceblue;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="google.com"></a> Home</li>
+      <li><a href="google.com"></a> About</li>
+      <li><a href="google.com"></a> Blog</li>
+    </ul>
+    <table style="float: left">
+      <caption>
+        table 1
+      </caption>
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>jake</td>
+        <td>prog</td>
+        <td>70</td>
+      </tr>
+      <tr>
+        <td>gyan</td>
+        <td>chd</td>
+        <td>69</td>
+      </tr>
+      <tr>
+        <td>harry</td>
+        <td>chad</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <td>maguire</td>
+        <td>chnd</td>
+        <td>67</td>
+      </tr>
+      <tr>
+        <td>giroud</td>
+        <td>hand</td>
+        <td>43</td>
+      </tr>
+    </table>
+    <table>
+      <caption>
+        table 2
+      </caption>
+      <tr>
+        <th rowspan="2">Name</th>
+        <td>Gyan</td>
+      </tr>
+      <tr>
+        <td>Chand</td>
+      </tr>
+      <tr>
+        <th>age</th>
+        <td>69</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Name</th>
+        <td>jake</td>
+      </tr>
+      <tr>
+        <td>prog</td>
+      </tr>
+      <tr>
+        <th>age</th>
+        <td>70</td>
+      </tr>
+    </table>
+  </body>
+</html>
